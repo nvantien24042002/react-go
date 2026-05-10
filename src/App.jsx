@@ -114,7 +114,7 @@ function App() {
   // )
   return (
     <>
-        <h3>Hello World Reactjs Go</h3>
+        <h3>Hello World Reactjs Go Git - Github</h3>
         <p className='my-text'>Nguyễn Văn Tiến</p>
     </>
   );  
