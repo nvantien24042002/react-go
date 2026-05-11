@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer, Header, Sidebar } from './components/Layout';
 import Welcome from './components/Welcome';
 // Welcome();
 // Welcome
@@ -117,9 +118,10 @@ function App() {
   // JSX => UI
   return (
     <>
-        {/* <h3>Hello World Reactjs Go Git - Github</h3>
-        <p className='my-text'>Nguyễn Văn Tiến</p> */}
         <Welcome/>
+        <Header/>
+        <Sidebar/>
+        <Footer/>
     </>
   );  
 }
