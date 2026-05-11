@@ -1,15 +1,22 @@
-import myPhoto from '.././assets/avt_tien.jpg'
 import '../components/UserProfile.css'
+import avt_tien from '../assets/avt_tien.jpg'
 function UserProfile(){
+    const currYear = new Date().getFullYear();
+    const user = {
+        name:"Nguyễn Văn Tiến",
+        location:"Hue",
+        birtYear:"2002",
+    }
+    // UI
     return(
         <>
             <div className="user-card">
-                <img className='avt' src={myPhoto} alt="" />
-                <p className="adrress">Hue</p>
-                <p className="date">2002</p>
+                <h2>{user.name}</h2>
+                <img className='avt' src={avt_tien} alt="" />
+                <p className="adrress">{user.location}</p>
+                <p className="date">{currYear - user.birtYear} tuổi</p>
             </div>
         </>
     )
-
 }
 export default UserProfile;
