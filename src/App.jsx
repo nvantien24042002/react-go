@@ -1,16 +1,5 @@
 import './App.css'
-// Component default
-function Welcome(){
-
-  return(
-    <>
-      <h1>Chào Nguyễn Văn Tiến</h1>
-      <p> Tiến đang học React go</p>
-    </>
-  )
-
-
-}
+import Welcome from './components/Welcome';
 // Welcome();
 // Welcome
 function App() {
@@ -128,8 +117,8 @@ function App() {
   // JSX => UI
   return (
     <>
-        <h3>Hello World Reactjs Go Git - Github</h3>
-        <p className='my-text'>Nguyễn Văn Tiến</p>
+        {/* <h3>Hello World Reactjs Go Git - Github</h3>
+        <p className='my-text'>Nguyễn Văn Tiến</p> */}
         <Welcome/>
     </>
   );  
