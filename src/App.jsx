@@ -1,8 +1,9 @@
 import './App.css'
-import { Footer, Header, Sidebar } from './components/Layout';
-import Welcome from './components/Welcome';
+// import { Footer, Header, Sidebar } from './components/Layout';
+// import Welcome from './components/Welcome';
 // Welcome();
 // Welcome
+import UserProfile from './components/UserProfile';
 function App() {
   // const [count, setCount] = useState(0)
   // return (
@@ -118,12 +119,17 @@ function App() {
   // JSX => UI
   return (
     <>
-        <Welcome/>
-        <Header/>
-        <Sidebar/>
-        <Footer/>
+      <UserProfile/>
     </>
-  );  
+  )
+  // return (
+  //   <>
+  //       <Welcome/>
+  //       <Header/>
+  //       <Sidebar/>
+  //       <Footer/>
+  //   </>
+  // );  
 }
 
 export default App
