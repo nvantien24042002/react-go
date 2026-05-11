@@ -10,7 +10,7 @@ function UserProfile(){
     // UI
     return(
         <>
-            <div className="user-card">
+            <div className="user-card" style={{background: "#f5f5f5", padding:"15px", borderRadius:"15px"}}>
                 <h2>{user.name}</h2>
                 <img className='avt' src={avt_tien} alt="" />
                 <p className="adrress">{user.location}</p>

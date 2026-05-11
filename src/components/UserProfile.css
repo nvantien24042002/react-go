@@ -1,45 +1,40 @@
-body {
+/* body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/* Container chính của card */
 .user-card {
     width: 250px;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 15px; /* Bo góc mềm mại */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Arial', sans-serif;
-    transition: transform 0.3s ease; /* Hiệu ứng khi di chuột vào */
+    transition: transform 0.3s ease; 
     margin: 20px auto;
 }
 
-/* Hiệu ứng phóng to nhẹ khi hover */
 .user-card:hover {
     transform: translateY(-5px);
-}
+} */
 
-/* CSS cho ảnh đại diện */
 .avt {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* Làm ảnh hình tròn */
-    object-fit: cover; /* Giữ tỉ lệ ảnh không bị méo */
-    border: 3px solid #007bff; /* Viền xanh cho nổi bật */
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #007bff; 
     margin-bottom: 15px;
 }
 
-/* CSS cho dòng địa chỉ */
-.adrress {
+/* .adrress {
     font-size: 1.1rem;
     font-weight: bold;
     color: #333;
     margin: 5px 0;
 }
 
-/* CSS cho dòng năm sinh */
 .date {
     font-size: 0.9rem;
     color: #777;
     margin: 0;
-}
+} */
