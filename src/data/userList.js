@@ -1,7 +1,7 @@
     const userList = [
     {
         id: 1,
-        name: "Nguyễn Văn Tiến",
+        // name: "Nguyễn Văn Tiến",
         avt: "https://i.pravatar.cc/150?u=1",
         location: "Huế",
         year: 2002,
@@ -9,7 +9,7 @@
     },
     {
         id: 2,
-        name: "Lê Thị Hà Liên",
+        // name: "Lê Thị Hà Liên",
         avt: "https://i.pravatar.cc/150?u=2",
         location: "A Lưới",
         year: 2006,
@@ -18,14 +18,14 @@
     {
         id: 3,
         name: "Trần Minh Hoàng",
-        avt: "https://i.pravatar.cc/150?u=3",
+        // avt: "https://i.pravatar.cc/150?u=3",
         location: "Đà Nẵng",
         year: 2000,
         skills: ["Node.js", "MongoDB", "Express"],
     },
     {
         id: 4,
-        name: "Phạm Thanh Thảo",
+        // name: "Phạm Thanh Thảo",
         avt: "https://i.pravatar.cc/150?u=4",
         location: "Hà Nội",
         year: 2003,
@@ -34,7 +34,7 @@
     {
         id: 5,
         name: "Hoàng Anh Đức",
-        avt: "https://i.pravatar.cc/150?u=5",
+        // avt: "https://i.pravatar.cc/150?u=5",
         location: "TP. Hồ Chí Minh",
         year: 1999,
         skills: ["Java", "Spring Boot", "MySQL"],
@@ -43,7 +43,7 @@
         id: 6,
         name: "Nguyễn Mai Chi",
         avt: "https://i.pravatar.cc/150?u=6",
-        location: "Cần Thơ",
+        // location: "Cần Thơ",
         year: 2005,
         skills: ["VueJS", "Tailwind CSS", "Firebase"],
     },
@@ -51,7 +51,7 @@
         id: 7,
         name: "Đỗ Hùng Dũng",
         avt: "https://i.pravatar.cc/150?u=7",
-        location: "Hải Phòng",
+        // location: "Hải Phòng",
         year: 2001,
         skills: ["PHP", "Laravel", "VueJS"],
     },
@@ -60,7 +60,7 @@
         name: "Vũ Thu Phương",
         avt: "https://i.pravatar.cc/150?u=8",
         location: "Lào Cai",
-        year: 2004,
+        // year: 2004,
         skills: ["Swift", "iOS Development", "Flutter"],
     },
     {
@@ -85,7 +85,7 @@
         avt: "https://i.pravatar.cc/150?u=11",
         location: "Bình Dương", 
         year: 2002,
-        skills: ["Redis"],
+        // skills: ["Redis"],
     }
     ];
 export {userList}
