@@ -1,15 +1,15 @@
-    const userList = [
+const userList = [
     {
         id: 1,
-        // name: "Nguyễn Văn Tiến",
+        name: "Nguyễn Văn Tiến",
         avt: "https://i.pravatar.cc/150?u=1",
         location: "Huế",
         year: 2002,
-        skills: ["HTML-CSS", "Javascript", "ReactJS"],
+        skills: ["HTML-CSS", "JavaScript", "ReactJS"],
     },
     {
         id: 2,
-        // name: "Lê Thị Hà Liên",
+        name: "Lê Thị Hà Liên",
         avt: "https://i.pravatar.cc/150?u=2",
         location: "A Lưới",
         year: 2006,
@@ -18,23 +18,23 @@
     {
         id: 3,
         name: "Trần Minh Hoàng",
-        // avt: "https://i.pravatar.cc/150?u=3",
+        avt: "https://i.pravatar.cc/150?u=3",
         location: "Đà Nẵng",
         year: 2000,
-        skills: ["Node.js", "MongoDB", "Express"],
+        skills: ["Node.js", "MongoDB", "React", "Express"],
     },
     {
         id: 4,
-        // name: "Phạm Thanh Thảo",
+        name: "Phạm Thanh Thảo",
         avt: "https://i.pravatar.cc/150?u=4",
         location: "Hà Nội",
         year: 2003,
-        skills: ["Python", "Django", "Machine Learning"],
+        skills: ["React", "JavaScript", "Tailwind CSS"],
     },
     {
         id: 5,
         name: "Hoàng Anh Đức",
-        // avt: "https://i.pravatar.cc/150?u=5",
+        avt: "https://i.pravatar.cc/150?u=5",
         location: "TP. Hồ Chí Minh",
         year: 1999,
         skills: ["Java", "Spring Boot", "MySQL"],
@@ -43,7 +43,7 @@
         id: 6,
         name: "Nguyễn Mai Chi",
         avt: "https://i.pravatar.cc/150?u=6",
-        // location: "Cần Thơ",
+        location: "Cần Thơ",
         year: 2005,
         skills: ["VueJS", "Tailwind CSS", "Firebase"],
     },
@@ -51,7 +51,7 @@
         id: 7,
         name: "Đỗ Hùng Dũng",
         avt: "https://i.pravatar.cc/150?u=7",
-        // location: "Hải Phòng",
+        location: "Hải Phòng",
         year: 2001,
         skills: ["PHP", "Laravel", "VueJS"],
     },
@@ -60,7 +60,7 @@
         name: "Vũ Thu Phương",
         avt: "https://i.pravatar.cc/150?u=8",
         location: "Lào Cai",
-        // year: 2004,
+        year: 2004,
         skills: ["Swift", "iOS Development", "Flutter"],
     },
     {
@@ -83,9 +83,18 @@
         id: 11,
         name: "Lý Gia Bình",
         avt: "https://i.pravatar.cc/150?u=11",
-        location: "Bình Dương", 
+        location: "Bình Dương",
         year: 2002,
-        // skills: ["Redis"],
-    }
-    ];
-export {userList}
+        skills: ["Redis"],
+    },
+    {
+        id: 12,
+        name: "Nguyễn Minh Anh",
+        avt: "https://i.pravatar.cc/150?u=12",
+        location: "Hà Nội",
+        year: 2001,
+        skills: ["HTML-CSS", "ReactJS", "Next.js"],
+    },
+];
+
+export { userList };

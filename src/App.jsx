@@ -3,7 +3,7 @@ import UserProfile from './components/UserProfile';
 import { userList } from './data/userList';
 function App() {
   // Logic
-
+  console.log(userList);
     // const FilteredUsers = userList.filter(
     //     (user) => user.location === "Hà Nội"
     // );
