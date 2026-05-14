@@ -6,8 +6,6 @@ function UserProfile({ user }) {
         const currYear = new Date().getFullYear();
         ageText = `${currYear - user.year}`;
     }
-
-
     // UI
     return (
         <div className="user-card">
