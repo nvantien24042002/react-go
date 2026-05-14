@@ -1,33 +1,22 @@
 import './App.css'
-import avtLien from './assets/em.jpg'
-import avtTien from './assets/avt_tien.jpg'
-import UserProfile from './components/UserProfile';
-
-function App() {
-  const userList = [
-    {
-      id: 1,
-      name: "Nguyễn Văn Tiến",
-      avt: avtTien,
-      location: "Mỹ Thượng",
-      year: 2002,
-    },
-    {
-      id: 2,
-      name: "Lê Thị Hà Liên",
-      avt: avtLien,
-      location: "A Lưới",
-      year: 2006,
-    }
-  ];
-
-  return (
-    <div className="app-container">
-      {userList.map((user) => (
-        <UserProfile key={user.id} user={user} />
-      ))}
-    </div>
-  );
+import { Button } from './components/button';
+// import UserProfile from './components/UserProfile';
+// import { userList } from './data/userList';
+// function App() {
+//   return (
+//     <div className="app-container">
+//       {userList.map((user) => (
+//         <UserProfile key={user.id} user={user} />
+//       ))}
+//     </div>
+//   );
+// }
+function App(){
+  return(
+    <>
+    <Button>👉 Đăng nhập <strong>Nhận ưu đãi tại đây</strong></Button>
+    <Button>®️ Đăng ký</Button>
+    </>
+  )
 }
-
 export default App;

@@ -3,13 +3,25 @@ function UserProfile({ user }) {
     const currYear = new Date().getFullYear();
     
     return (
-        <div className="user-card" style={{ background: "#f5f5f5", padding: "15px", borderRadius: "15px", marginBottom: "10px" }}>
+        <div className="user-card">
+        <div className="card-header">
+            <img className='avt' src={user.avt} alt={user.name} />
             <h2>{user.name}</h2>
-            <img className='avt' src={user.avt} alt={user.name} style={{ width: "100px", borderRadius: "50%" }} />
-            <p className="address">Địa chỉ: {user.location}</p>
-            <p className="date">Tuổi: {currYear - user.year}</p>
+        </div>
+
+        <div className="card-body">
+            <p>📍 {user.location}</p>
+            <p>🎂 {currYear - user.year} tuổi</p>
+            
+            <div className="skills-container">
+            {user.skills.map((skill, index) => (
+                <span key={index} className="skill-badge">
+                {skill}
+                </span>
+            ))}
+            </div>
+        </div>
         </div>
     );
 }
-
 export default UserProfile;
