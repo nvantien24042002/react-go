@@ -1,9 +1,10 @@
 import './App.css'
-import UserProfile from './components/UserProfile';
-import { userList } from './data/userList';
+// import UserProfile from './components/UserProfile';
+// import { userList } from './data/userList';
 function App() {
+  return <h1 className='text-2xl font-bold bg-red-100 rounded-full'>Hello Taiilwin</h1>
   // Logic
-  console.log(userList);
+  // console.log(userList);
     // const FilteredUsers = userList.filter(
     //     (user) => user.location === "Hà Nội"
     // );
@@ -16,30 +17,31 @@ function App() {
     //     user.skills.some((s) => s.includes("React"))
     // );
 
-  const FilteredUsers = userList.filter(
-      (user) =>
-          user.skills.some((s) => s.includes("React")) &&
-          user.location === "Hà Nội"
-  );
-  return (
-    <div className="app-container">
-      {FilteredUsers?.length > 0 ? (
+  // const FilteredUsers = userList.filter(
+  //     (user) =>
+  //         user.skills.some((s) => s.includes("React")) &&
+  //         user.location === "Hà Nội"
+  // );
+  // return (
 
-        FilteredUsers.map((user) => (
-            <UserProfile
-                key={user.id}
-                user={user}
-            />
-        ))
+  //   <div className="app-container">
+  //     {FilteredUsers?.length > 0 ? (
 
-    ) : (
+  //       FilteredUsers.map((user) => (
+  //           <UserProfile
+  //               key={user.id}
+  //               user={user}
+  //           />
+  //       ))
 
-        <div className="empty-state">
-            <p>Không tìm thấy dữ liệu</p>
-        </div>
+  //   ) : (
 
-    )}
-    </div>
-  );
+  //       <div className="empty-state">
+  //           <p>Không tìm thấy dữ liệu</p>
+  //       </div>
+
+  //   )}
+  //   </div>
+  // );
 }
 export default App;
