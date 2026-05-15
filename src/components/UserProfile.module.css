@@ -1,4 +1,4 @@
-.user-card {
+.userCard {
     width: 320px;
     padding: 20px;
     border-radius: 16px;
@@ -8,13 +8,12 @@
     color: #333333;
 }
 
-.card-header {
+.cardHeader {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-bottom: 16px;
 }
-
 .avt {
     width: 64px;
     height: 64px;
@@ -22,26 +21,24 @@
     object-fit: cover;
     border: 2px solid #dddddd;
 }
-
-.user-name {
+.userName {
     font-size: 22px;
     margin: 0;
     color: #222222;
 }
-
-.card-body {
+.cardBody {
     font-size: 15px;
     line-height: 1.6;
 }
 
-.skills-container {
+.skillsContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 12px;
 }
 
-.skill-badge {
+.skillBadge {
     padding: 6px 10px;
     border-radius: 999px;
     background-color: #e8f1ff;
@@ -49,8 +46,7 @@
     font-size: 13px;
     font-weight: 600;
 }
-
-.empty-text {
+.emptyText {
     color: #888888;
     font-style: italic;
 }

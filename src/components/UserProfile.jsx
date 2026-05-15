@@ -1,5 +1,5 @@
-import "../components/UserProfile.css";
-
+// import "../components/UserProfile.css";
+import styles from "../components/UserProfile.module.css"
 function UserProfile({ user }) {
     // Logic
     let ageText = "Chưa cập nhật tuổi";
@@ -69,22 +69,22 @@ function UserProfile({ user }) {
 
     // UI
     return (
-        <div className="user-card">
-            <div className="card-header">
+        <div className={styles.userCard }>
+            <div className={styles.cardHeader}>
                 {user.avt && (
                     <img 
-                        className="avt"
+                        className={styles.avt}
                         src={user.avt} 
                         alt={user.name} 
                     />
                 )}
 
-                <h2 className="user-name">
+                <h2 className={styles.userName}>
                     {user.name ?? "Ẩn Danh"}
                 </h2>
             </div>
 
-            <div className="card-body">
+            <div className={styles.cardBody}>
                 {user.location ? (
                     <p>📍 {user.location}</p>
                 ) : (
@@ -93,18 +93,18 @@ function UserProfile({ user }) {
 
                 <p>🎂 {ageText}</p>
 
-                <div className="skills-container">
+                <div className={styles.skillsContainer}>
                     {user.skills?.length > 0 ? (
                         user.skills.map((skill, index) => (
                             <span
                                 key={index}
-                                className="skill-badge"
+                                className={styles.skillBadge}
                             >
                                 {skill}
                             </span>
                         ))
                     ) : (
-                        <p className="empty-text">Chưa có kỹ năng</p>
+                        <p className={styles.emptyText}>Chưa có kỹ năng</p>
                     )}
                 </div>
             </div>
