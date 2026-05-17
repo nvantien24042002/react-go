@@ -5,8 +5,8 @@ function App() {
   return (
   <>
     <h1 h1 className='text-2xl font-bold bg-red-100 rounded-full'>Hello Taiilwin</h1>  
-    <div className="flex">
-      <button className='bg-red-400 py-2 px-4 text-white rounded-full'>
+    <div className="flex items-center justify-center px-3 py-2 h-screen">
+      <button className='bg-red-400 py-2 px-4 text-white rounded-full hover:bg-pink-500 md:py-3 md:px-5 cursor-pointer'>
         Click me
       </button>
     </div>
